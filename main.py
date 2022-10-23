@@ -42,10 +42,10 @@ def launch_test():
     fg_color = choose_fg_color(color)
 
     tk.Label(second, text=color, fg=fg_color, bg=STROOP_BG, font="14").pack()
-    tk.Button(second, text="Amarillo").pack(pady=(100,35))
-    tk.Button(second, text="Azul").pack(pady=(100,40))
-    tk.Button(second, text="Verde").pack(pady=(100,45))
-    tk.Button(second, text="Rojo").pack(pady=(100,50))
+    tk.Button(second, text="Amarillo").pack(side="left", padx=(350,0), pady=(450,0))
+    tk.Button(second, text="Azul").pack(side="left", padx=(200,0), pady=(450,0))
+    tk.Button(second, text="Verde").pack(side="left", padx=(200,0), pady=(450,0))
+    tk.Button(second, text="Rojo").pack(side="left", padx=(200,0), pady=(450,0))
 
 
 
